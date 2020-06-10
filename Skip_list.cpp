@@ -203,6 +203,7 @@ int main() {
     unsigned int start_time = clock();
     ifstream file("inlab03.txt");
     int k1, k2, k3, k4, k5, x;
+	//file: 2001 7 13666 4 7 -1 100001
     file >> x >> k1 >> k2 >> k3 >> k4 >> k5;
     lista l;
     l.find_element(k1);
